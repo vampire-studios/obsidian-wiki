@@ -1,3 +1,9 @@
+---
+title: Blocks | Obsidian Wiki
+authors:
+    - oliviathevampire
+---
+
 # Blocks
 
 Block definitions go in the `block` directory in the obsidian addon.

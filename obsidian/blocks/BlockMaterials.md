@@ -1,10 +1,10 @@
 ---
-title: Block Properties
+title: Block Properties | Obsidian Wiki
 authors:
     - oliviathevampire
 ---
 
-# {{ $frontmatter.title }}
+# Block Properties
 
 Block Properties define the map color and some basic properties of blocks.
 

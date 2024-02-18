@@ -1,10 +1,10 @@
 ---
-title: Block Set Types
+title: Block Set Types | Obsidian Wiki
 authors:
     - oliviathevampire
 ---
 
-# {{ $frontmatter.title }}
+# Block Set Types
 
 EXPERIMENTAL.
 

@@ -16,9 +16,9 @@ export function applySEO(pageData: PageData) {
   addTag(
     pageData,
     "og:title",
-    pageData.title === "Obsidian Wiki"
-      ? `Obsidian Wiki`
-      : `${pageData.title} | Obsidian Wiki`
+    pageData.title === "Vampire Studios Wiki"
+      ? `Vampire Studios Wiki`
+      : `${pageData.title} | Vampire Studios Wiki`
   );
 
   addTag(pageData, "og:type", "website");

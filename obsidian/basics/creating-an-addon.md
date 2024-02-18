@@ -1,10 +1,10 @@
 ---
-title: Creating an Addon
+title: Creating an Addon | Obsidian Wiki
 authors:
     - oliviathevampire
 ---
 
-# {{ $frontmatter.title }}
+# Creating an Addon
 
 ## Table of Contents
 - [Introduction to Modding in Minecraft](#introduction-to-modding-in-minecraft)
@@ -23,7 +23,6 @@ authors:
 - [Advanced Content Creation](#advanced-content-creation)
 - [Updating and Maintenance](#updating-and-maintenance)
 - [Additional Resources](#additional-resources)
-
 
 ## Project Setup
 Before you begin creating a content pack, it's important to set up a structured project. This involves:

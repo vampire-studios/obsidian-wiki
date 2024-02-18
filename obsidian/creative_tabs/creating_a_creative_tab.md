@@ -1,7 +1,7 @@
 ---
-title: Creating an Creative Tab
+title: Creating an Creative Tab | Obsidian Wiki
 authors:
     - oliviathevampire
 ---
 
-# {{ $frontmatter.title }}
+# Creating an Creative Tab

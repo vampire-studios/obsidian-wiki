@@ -37,36 +37,6 @@ export default [
     ]
   },
   {
-    text: "obsidian.guide",
-    collapsed: true,
-    items: [
-      {
-        text: "obsidian.guide.armor_materials",
-        link: "/obsidian/guide/armor_materials",
-      },
-      {
-        text: "obsidian.guide.attribute_modifiers",
-        link: "/obsidian/guide/attribute_modifiers",
-      },
-      {
-        text: "obsidian.guide.blocks",
-        link: "/obsidian/guide/blocks",
-      },
-      {
-        text: "obsidian.guide.effect_instances",
-        link: "/obsidian/guide/effect_instances",
-      },
-      {
-        text: "obsidian.guide.ingredient",
-        link: "/obsidian/guide/ingredient",
-      },
-      {
-        text: "obsidian.guide.items",
-        link: "/obsidian/guide/items",
-      }
-    ]
-  },
-  {
     text: "obsidian.items",
     collapsed: true,
     items: [
@@ -85,16 +55,6 @@ export default [
     ]
   },
   {
-    text: "obsidian.entities",
-    collapsed: true,
-    items: [
-      {
-        text: "obsidian.entities.effects",
-        link: "/obsidian/entities/effects"
-      }
-    ]
-  },
-  {
     text: "obsidian.commands",
     collapsed: true,
     items: [
@@ -105,62 +65,6 @@ export default [
       {
         text: "obsidian.commands.arguments",
         link: "/obsidian/commands/arguments"
-      },
-      {
-        text: "obsidian.commands.suggestions",
-        link: "/obsidian/commands/suggestions"
-      }
-    ]
-  },
-  {
-    text: "obsidian.misc",
-    collapsed: true,
-    items: [
-      {
-        text: "obsidian.misc.codecs",
-        link: "/obsidian/codecs"
-      },
-      {
-        text: "obsidian.misc.events",
-        link: "/obsidian/events"
-      }
-    ]
-  },
-  {
-    text: "obsidian.documentation",
-    collapsed: true,
-    items: [
-      {
-        text: "obsidian.documentation.block_materials",
-        link: "/obsidian/documentation/BlockMaterials"
-      },
-      {
-        text: "obsidian.documentation.block_set_types",
-        link: "/obsidian/documentation/BlockSetTypes"
-      },
-      {
-        text: "obsidian.documentation.block_types",
-        link: "/obsidian/documentation/BlockTypes"
-      },
-      {
-        text: "obsidian.documentation.enchantments",
-        link: "/obsidian/documentation/Enchantments"
-      },
-      {
-        text: "obsidian.documentation.item_groups",
-        link: "/obsidian/documentation/ItemGroups"
-      },
-      {
-        text: "obsidian.documentation.item_types",
-        link: "/obsidian/documentation/ItemTypes"
-      },
-      {
-        text: "obsidian.documentation.sound_events",
-        link: "/obsidian/documentation/SoundEvents"
-      },
-      {
-        text: "obsidian.documentation.sound_types",
-        link: "/obsidian/documentation/SoundTypes"
       }
     ]
   }

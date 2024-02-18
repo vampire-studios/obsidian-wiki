@@ -1,10 +1,10 @@
 ---
-title: Block Types
+title: Block Types | Obsidian Wiki
 authors:
     - oliviathevampire
 ---
 
-# {{ $frontmatter.title }}
+# Block Types
 
 Blocks come in many types. Some common blocks require special handling such as special superclasses to be used in code.
 

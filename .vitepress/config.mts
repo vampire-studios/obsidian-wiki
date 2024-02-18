@@ -1,7 +1,6 @@
 import { PageData, TransformPageContext } from 'vitepress'
 
 import ObsidianSidebar from './sidebars/obsidian'
-import BedrockSidebar from "./sidebars/bedrock"
 
 import snippetPlugin from 'markdown-it-vuepress-code-snippet-enhanced'
 

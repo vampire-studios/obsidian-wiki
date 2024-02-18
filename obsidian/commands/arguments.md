@@ -1,8 +1,8 @@
 ---
-title: Command Argument Types
+title: Command Argument Types | Obsidian Wiki
 ---
 
-# {{ $frontmatter.title }}
+# Command Argument Types
 
 Minecraft's commands are powerful tools that enhance gameplay, facilitate server management, and enable creative modding. This guide provides a detailed look into the various argument types essential for crafting custom Minecraft commands. Designed for both server administrators and modders, it offers insights into effectively utilizing these arguments, complete with examples and best practices.
 

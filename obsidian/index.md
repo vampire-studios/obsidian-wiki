@@ -1,14 +1,26 @@
 ---
-title: Obsidian Format Guides
-description: Our curated developer guides, written by the community, span a wide range of topics from setting up a development environment to more advanced topics, such as rendering and networking.
-authors:
-    - oliviathevampire
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "Obsidian Documentation"
+  text: "A wiki for the Obsidian mod"
+
+features:
+  - title: Creating an Addon
+    icon: 🛠️
+    details: Details how to create an addon and it's file structure
+    link: /obsidian/basics/creating-an-addon
+    linkText: Get started with creating an addon
+  - title: Creating a block
+    icon: 📚
+    details: Shows you how to create your first basic block for your addon!
+    link: /obsidian/guide/blocks
+    linkText: Get started creating a block
+  - title: Creating an item
+    icon: 📚
+    details: Shows you how to create your first basic item for your addon!
+    link: /obsidian/items/creating-first-item
+    linkText: Get started creating an item
 ---
 
-# {{ $frontmatter.title }}
-
-Our curated developer guides, written by the community, span a wide range of topics from setting up a development environment to more advanced topics, such as rendering and networking.
-
-Take a look at the sidebar for a list of all the developer guides available. If you're looking for something specific, you can use the search bar at the top of the page to find what you need.
-
-If you want to contribute to the Fabric Documentation, you can find the source code on [GitHub](https://github.com/FabricMC/fabric-docs), and the relevant [contribution guidelines.](/contributing)

@@ -17,8 +17,8 @@ export default [
     collapsed: true,
     items: [
       {
-        text: "obsidian.basics.creating_an_addon",
-        link: "/obsidian/basics/creating_an_addon",
+        text: "obsidian.basics.creating-an-addon",
+        link: "/obsidian/basics/creating-an-addon",
       }
     ]
   },
@@ -53,20 +53,8 @@ export default [
         link: "/obsidian/guide/blocks",
       },
       {
-        text: "obsidian.guide.command_argument_types",
-        link: "/obsidian/guide/command_argument_types",
-      },
-      {
-        text: "obsidian.guide.commands",
-        link: "/obsidian/guide/commands",
-      },
-      {
         text: "obsidian.guide.effect_instances",
         link: "/obsidian/guide/effect_instances",
-      },
-      {
-        text: "obsidian.guide.food",
-        link: "/obsidian/guide/food",
       },
       {
         text: "obsidian.guide.ingredient",
@@ -83,8 +71,16 @@ export default [
     collapsed: true,
     items: [
       {
-        text: "obsidian.items.creating_first_item",
+        text: "obsidian.items.creating-first-item",
         link: "/obsidian/items/creating-first-item",
+      },
+      {
+        text: "obsidian.items.food",
+        link: "/obsidian/items/food",
+      },
+      {
+        text: "obsidian.items.armor-materials",
+        link: "/obsidian/items/armor-materials",
       }
     ]
   },

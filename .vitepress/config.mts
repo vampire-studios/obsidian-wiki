@@ -11,13 +11,17 @@ import { loadLocales, generateTranslatedSidebars } from './i18n'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Obsidian Wiki",
-  description: "A wiki for the Obsidian mod",
+  title: "Vampire Studios Wiki",
+  description: "A wiki for all of the mods made by Vampire Studios",
+
   cleanUrls: true,
+
   transformPageData(pageData: PageData, ctx: TransformPageContext) {
     applySEO(pageData);
   },
+
   lastUpdated: true,
+
   markdown: {
     lineNumbers: true,
     math: true,
@@ -25,6 +29,7 @@ export default defineConfig({
       md.use(snippetPlugin);
     }
   },
+
   locales: {
     root: {
       label: 'English',
@@ -32,25 +37,28 @@ export default defineConfig({
     },
     ...loadLocales(__dirname)
   },
+
   sitemap: {
-    hostname: "https://docs.fabricmc.net/"
+    hostname: "https://docs.vampirestudios.net/"
   },
+
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Download', link: 'https://modrinth.com/project/obsidian' },
-      { text: 'Obsidian Format', link: '/obsidian' },
-      { text: 'Bedrock Format', link: '/bedrock' }
+      { text: 'Our Mods', link: 'https://modrinth.com/organization/vampire-studios' },
+      { text: 'Obsidian Documentation', link: '/obsidian' }
     ],
+
     outline: "deep",
+
     search: {
       provider: 'local'
     },
+
     sidebar: generateTranslatedSidebars(__dirname, {
-      '/obsidian/': ObsidianSidebar,
-      '/bedrock/': BedrockSidebar,
+      '/obsidian/': ObsidianSidebar
     }),
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vampire-studios/Obsidian' },
       { icon: 'discord', link: 'https://discord.gg/63hmSTxyDA' }

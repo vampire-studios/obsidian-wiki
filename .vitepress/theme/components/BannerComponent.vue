@@ -18,8 +18,8 @@ watchEffect(() => {
 <template>
   <div ref="el" class="banner">
     <div class="text">
-      Obsidian Documentation is a work in progress. Report issues on <a
-        href="https://github.com/fabricmc/fabric-docs/issues" target="_blank" rel="noopener noreferrer">GitHub</a>.
+      Vampire Studios wiki is a work in progress. Report issues on <a
+        href="https://github.com/vampire-studios/vampire-studios-wiki/issues" target="_blank" rel="noopener noreferrer">GitHub</a>.
     </div>
   </div>
 </template>

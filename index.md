@@ -3,27 +3,16 @@
 layout: home
 
 hero:
-  name: "Obsidian Wiki"
-  text: "A wiki for the Obsidian mod"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+  name: "Vampire Studios Wiki"
+  text: "A wiki for all of the mods made by Vampire Studios"
 
 features:
-  - title: Obsidian Format Guides
+  - title: Obsidian Guides
     icon: 🛠️
-    details: Our curated developer guides, written by the community, span a wide range of topics from setting up a development environment to mroe advanced topics, such as rendering and networking.
+    details: Guide for the Obsidian mod for how to create an addon and utilizing all of it's features!
     link: /obsidian/
     linkText: Get Started
-  - title: Bedrock Format Guides
-    icon: 📚
-    details: Are you a player looking to use mods powered by Fabric? Our player guides have you covered. These guides will help you in downloading, installing, and troubleshooting Fabric mods.
-    link: /bedrock/
-    linkText: Read More
+  - title: More Coming soon!
+    details: When we make more mods that need documentation/a wiki we will ad more here!
 ---
 

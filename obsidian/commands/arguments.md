@@ -20,27 +20,33 @@ Come basic argument types are:
 
 ### "integer"
 
-::: info
-#### Examples of ``"integer"`` argument uses
-- **Setting Time**: Used in commands like `/time set 12000` where "12000" is an "integer" argument.
-- **Allocating Points**: In a custom command like `/points add player_name 30`, "30" is the integer argument representing points.
-:::
+<div class="custom-block" style="color: var(--vp-custom-block-info-text); background-color: var(--vp-custom-block-info-bg); border: 3px solid var(--vp-custom-block-info-border); border-radius:5px; padding: 1rem;">
+    <h4 id="examples-of-integer-argument-uses" tabindex="-1"> Examples of <code style="color: var(--vp-c-brand-1)">"integer"</code> argument uses </h4>
+    <ul>
+        <li><strong>Setting Time</strong>: Used in commands like <code>/time set 12000</code> where "12000" is an "integer" argument.</li>
+        <li><strong>Allocating Points</strong>: In a custom command like <code>/points add player_name 30</code>, "30" is the integer argument representing points.</li>
+    </ul>
+</div>
 
 ### "float"
 
-::: info
-#### Examples of ``"float"`` argument uses
-- **Adjusting Speed**: In a command like `/speed 1.5` where "1.5" is a "float" argument.
-- **Setting Growth Rate**: In a custom farming plugin, setting growth rate like `/growthrate wheat 0.75`.
-:::
+<div class="info custom-block" style="color: var(--vp-custom-block-info-text); background-color: var(--vp-custom-block-info-bg); border: 3px solid var(--vp-custom-block-info-border); border-radius:5px; padding: 1rem;">
+    <h4 id="examples-of-float-argument-uses" tabindex="-1"> Examples of <code style="color: var(--vp-c-brand-1)">"float"</code> argument uses </h4>
+    <ul>
+        <li><strong>Adjusting Speed</strong>: In a command like <code>/speed 1.5</code> where "1.5" is a "float" argument.</li>
+        <li><strong>Setting Growth Rate</strong>: In a custom farming plugin, setting growth rate like <code>/growthrate wheat 0.75</code></li>
+    </ul>
+</div>
 
 ### "boolean"
 
-::: info
-#### Examples of ``"boolean"`` argument uses
-- **Toggle Settings**: Commands like `/visibility true` or `/visibility false`.
-- **Enabling/Disabling Features**: In a custom mod, toggling features like `/feature customTrees true`.
-:::
+<div class="info custom-block" style="color: var(--vp-custom-block-info-text); background-color: var(--vp-custom-block-info-bg); border: 3px solid var(--vp-custom-block-info-border); border-radius:5px; padding: 1rem;">
+    <h4 id="examples-of-boolean-argument-uses" tabindex="-1"> Examples of <code style="color: var(--vp-c-brand-1)">"boolean"</code> argument uses </h4>
+    <ul>
+        <li><strong>Toggle Settings</strong>: Commands like <code>/visibility true</code> or <code>/visibility false</code></li>
+        <li><strong>Enabling/Disabling Features</strong>: In a custom mod, toggling features like <code>/feature customTrees true</code></li>
+    </ul>
+</div>
 
 ### "double"
 
